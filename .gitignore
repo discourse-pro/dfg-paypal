@@ -20,3 +20,6 @@ pkg
 
 ## PROJECT::SPECIFIC
 Gemfile.lock
+
+# 2016-12-12
+*.gem
