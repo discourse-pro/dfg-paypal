@@ -1,5 +1,9 @@
 # 2016-12-12
-# vagrant ssh "gem build ./_my/gems/dfg-paypal/dfg-paypal.gemspec"
+# vagrant ssh
+# cd ./_my/gems/dfg-paypal
+# gem build dfg-paypal.gemspec
+# gem push dfg-paypal-0.8.2.gem
+# https://rubygems.org/gems/dfg-paypal
 Gem::Specification.new do |s|
 	s.add_dependency "activesupport", ">= 2.3"
 	s.add_dependency "rest-client"
